@@ -1,0 +1,44 @@
+Ejercicio:
+
+
+-objetivo: crear una app que muestre una playlist segun los parámetros que el usuario cargue:
+                -color de cabello
+                -signo
+                -edad
+                -cafe o mate
+                -humor: bueno o malo
+                -mascotas: si o no
+                -estado civil: 
+                -hijos
+                -sexo
+                -hijo del medio
+                
+-idioma: ingles 
+
+-lenguaje:
+-html, css
+-js, ts
+-angular
+
+diseño: 
+-responsive
+-first mobile
+
+banco de musica:
+https://www.educaciontrespuntocero.com/recursos/bancos-de-musica-libre/ 
+Spotify
+
+
+texto:
+Un algoritmo secreto desarrollado por un selecto grupo de 100 especialistas en conducta humana, decide cual música es la adecuada para tí, el día de hoy. No te apresures. Para saber qué playList de Spotify matchea con tu día, antes debes contestar las siguientes 10 preguntas
+
+¿Cual es el Signo en tu Horoscopo?
+¿Tienes Tatuajes en tu cara?
+¿Tienes Mascotas?
+¿Eres el hijo del medio?
+¿Te levantaste de buen humor?
+¿Que color de cabello llevas hoy?
+¿Cuántas horas dormiste anoche?
+¿Tienes dinero ahorrado?
+¿Has soñado anoche?
+¿Ya has desayunado?

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio - PlayList a Diario</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo">playList Delivery 🎧</h1>
+        <br>
+        <img class="banner" src="img/music.jpg" alt="imagen de notas musicales">
+    </header>
+
+    <main>
+
+        <h2 class="instrucciones">
+            A secret algorithm developed by a select group of 1000 specialists in human behavior decides which music is right for you today.
+            <br><br>
+            Do not rush. <br><br> To find out which Spotify playList matches your day, you must first answer the following 5 questions:
+            <br>
+            <br>
+        </h2>
+
+        <div id="playlist" style="display:none;">
+            <iframe style="border-radius:15px"
+                src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF?utm_source=generator" width="330px"
+                height="400" frameBorder="2"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+
+        <div id="playlist2" style="display:none;">
+            <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/album/7aJuG4TFXa2hmE4z1yxc3n?utm_source=generator" width="330px" 
+            height="400" frameBorder="2" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        
+        <div id="playlist3" style="display:none;">
+            <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/artist/06HL4z0CvFAxyc27GXpf02?utm_source=generator" 
+            width="330px" height="400" frameBorder="2" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div id="playlist4" style="display:none;">
+            <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1E4uRn0ZPq9w9e?utm_source=generator" 
+            width="330px" height="400" frameBorder="2"  allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div id="playlist5" style="display:none;">
+            <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/album/2nhgEwVnowaeSqQ0uMJO06?utm_source=generator" 
+            width="330px" height="400" frameBorder="2" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+
+    
+        <form id="preguntas">
+            <br>
+           
+            <fieldset class="preg">
+                
+                <legend class="texto">What hair color are you wearing today?</legend>
+                <select name="colorCabello" class="opcion">
+                    <option value="">Brown</option>
+                    <option value="">Grey</option>
+                    <option value="">Blonde</option>
+                    <option value="">Red</option>
+                    <option value="">Black</option>
+                    <option value="">Other</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">How many hours did you sleep last night?</legend>
+                <select name="sleepHours" class="opcion">
+                    <option value="">+ 8 hours</option>
+                    <option value="">- 8 hours</option>
+                    <option value="">- 6 hours</option>
+                    <option value="">- 5 hours</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Do you have money saved?</legend>
+                <select name="moneySaved" class="opcion">
+                    <option value="">+ 1,000 USD</option>
+                    <option value="">+ 10,000 USD</option>
+                    <option value="">+ 50,000 USD</option>
+                    <option value="">No money saved</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Did you dream last night?</legend>
+                <select name="dreamLastNight" class="opcion">
+                    <option value="">YES</option>
+                    <option value="">NO</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Have you had breakfast yet?</legend>
+                <select name="breakfast" class="opcion">
+                    <option value="">YES</option>
+                    <option value="">NO</option>
+                </select>
+            </fieldset>
+
+        
+        </form>
+
+        <div id="search-container">
+            <button id="mostrar" type="button"  onclick="mostrar()" >SEARCH</button>
+        </div>
+        
+        
+
+        <button id="back" style="display:none;" onclick="back()">BACK</button>
+
+    </main>
+
+    <footer>
+        <p class="desarrollo">Powered by Pedro Arruvito &#128640;</p>
+        <p class="desarrollo">&#11088;&#65039;&#11088;&#65039;&#11088;&#65039;</p>
+    </footer>
+
+    <script src="myscript.js"></script>
+
+</body>
+
+</html>

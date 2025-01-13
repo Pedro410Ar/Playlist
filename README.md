@@ -1,7 +1,7 @@
 ### Actividad Práctica 2022 ✨✨✨
 
 
-<img width=150 height= 100 src="https://github.com/Pedro410Ar/PlayList/blob/master/img/music.jpg"/>
+<img width=350 height= 150 src="https://github.com/Pedro410Ar/PlayList/blob/master/img/music.jpg"/>
 
 
 Esta página web, llamada "PlayList" se trata de un proyecto de software que te ayudará a elegir música de acuerdo a tu estado de ánimo.
